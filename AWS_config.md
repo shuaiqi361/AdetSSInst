@@ -30,7 +30,7 @@ In your dashboard, click on the Orange ```Launch Instance``` button. You will ne
   <img src="https://github.com/shuaiqi361/AdetSSInst/blob/main/security_group.png"/>
 </div>
 
-* Review and Launce: If you have finished everything above you can now launch your instance. When launching the instance, you will need your private keypair, if you are using it for the first time, you can generate the keypair, make sure you know where your store the generated keypair, because you will need it later. The keypair will be a file ending in ```.pem```.
+* Review and Launch: If you have finished everything above you can now launch your instance. When launching the instance, you will need your private keypair, if you are using it for the first time, you can generate the keypair, make sure you know where your store the generated keypair, because you will need it later. The keypair will be a file ending in ```.pem```.
 
 ## Launching the Instance
 Finally, we have our EC2 instance running and we are ready to ssh into it and start training our models. In your dashboard, you will now find that you have one running instance. To access the Instance, you will need the ```IPv4 Public IP```. Note that, everytime when you stop and resume the instance, the IP will change.
